@@ -46,3 +46,61 @@ footer{
   padding:20px;
   background:#121A2F;
 }
+
+.page-header{
+  text-align:center;
+  padding:60px 20px 30px;
+}
+
+.page-header h1{
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+.page-header p{
+  color:#cbd5e1;
+  font-size:18px;
+}
+
+.students-section{
+  max-width:1100px;
+  margin:0 auto;
+  padding:20px;
+}
+
+.students-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:20px;
+}
+
+.student-card{
+  background:#121A2F;
+  border-radius:18px;
+  padding:20px;
+  text-align:center;
+  box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+.student-card img{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-bottom:15px;
+}
+
+.student-card h3{
+  margin:10px 0 8px;
+}
+
+.student-role{
+  color:#60a5fa;
+  font-weight:bold;
+  margin-bottom:8px;
+}
+
+.student-quote{
+  color:#cbd5e1;
+  font-size:14px;
+}
